@@ -1,0 +1,347 @@
+    1  ls
+    2  ls -a
+    3  mkdir ansible
+    4  touch 1.txr
+    5  touch 2.txt
+    6  touch 3.txt
+    7  mv 1.txr 1.txt
+    8  ls
+    9  mv 1.txt 2.txt 3.txt ansible/
+   10  ls
+   11  cd ansible/
+   12  git init
+   13  ls
+   14  mkdir git
+   15  cd git
+   16  ls
+   17  touch 1.txt 2.txt 3.txt
+   18  ls
+   19  git status
+   20  git init
+   21  git status
+   22  git add .
+   23  git status
+   24  git commit -m "this is the first commit"
+   25  git status
+   26  git config --global ashish@gmail.com
+   27  git config --global user.email  ashish@gmail.com
+   28  git config --global user.name  ashish
+   29  git config reset. --help
+   30  git config --help
+   31  git config --help > 4.txt
+   32  nano 4.txt 
+   33  cat 4.txt | grep reset
+   34  git commit --amend --reset-author 
+   35  git config --global user.name  ashish
+   36  git status
+   37  git log --oneline
+   38  git commit -m "this is the first commit"
+   39  git log --oneline 
+   40  git log 
+   41  git commit --amend --reset-author 
+   42  git config --amend --reset-author 
+   43  git config --reset-author 
+   44  git config reset.
+   45  git config reset.config
+   46  git log 
+   47  git add .
+   48  git status
+   49  git commit -m "4th file"
+   50  git log
+   51  git status
+   52  ls
+   53  git add origin "git@github.com:Ashish130291/assignment.git"
+   54  git remote add origin "git@github.com:Ashish130291/assignment.git"
+   55  git remote -v
+   56  git push origin master 
+   57  ssh key-gen
+   58  ssh-keygen
+   59  cd ~/.ssh/
+   60  ls
+   61  cat id_rsa.pub 
+   62  cd ../..
+   63  ls
+   64  cd chandrika_sadanand13/
+   65  ls
+   66  cd git/
+   67  ls
+   68  git push origin master 
+   69  ls
+   70  touch feature1.txt feature2.txt
+   71  git status
+   72  git add .
+   73  git commit "assignement 2"
+   74  git commit -m  "assignement 2"
+   75  git branch feature1
+   76  git branch develop feature2
+   77  git branch feature2
+   78  git branch --list 
+   79  git branch develop
+   80  git branch --list 
+   81  git branch develop 
+   82  git checkout develop 
+   83  touch develop.txr
+   84  mv develop.txr develop.txt
+   85  ls
+   86  git status 
+   87  git stash --help
+   88  git stash create develop.txt
+   89  git status
+   90  git stash apply develop.txt
+   91  git stash
+   92  ls
+   93  git statuis
+   94  git status
+   95  rm develop.txt 
+   96  touch develop2.txt
+   97  git status
+   98  git stash 
+   99  git stash push 
+  100  ls
+  101  git stash apply 
+  102  git add .
+  103  git commit -m "stash"
+  104  nano develop2.txt 
+  105  git status
+  106  git stash apply 
+  107  git stash
+  108  git status
+  109  git stash list 
+  110  git log
+  111  touch 5.txr
+  112  git status
+  113  git stash -u
+  114  git status
+  115  git stash list 
+  116  git log
+  117  git stash list
+  118  git stash apply 1
+  119  git status
+  120  git stash apply 0
+  121  git stash list 
+  122  git ststus
+  123  git status
+  124  git stash 
+  125  git stash list 
+  126  git stash apply 1
+  127  git stash
+  128  ls
+  129  git status
+  130  git stash
+  131  git stash -u
+  132  git stash list
+  133  git stash apply 0
+  134  git stash -u
+  135  git stash show 3
+  136  git stash show -p 3
+  137  git stash show -p 0
+  138  sudo apt install trww
+  139  sudo apt install tree
+  140  snap install tree
+  141  sudo snap install tree
+  142  git stash show -p 0
+  143  git status
+  144  git checkout feature1
+  145  touch new,txt
+  146  mv new,txt new.txt
+  147  git add .
+  148  git commit -m "staged"
+  149  git merge develop 
+  150  git log
+  151  git log --oneline 
+  152  git branch -v
+  153  touch sdfvuf.txt
+  154  git checkout develop 
+  155  git branch -v
+  156  git stash list
+  157  git stash apply 2
+  158  git add .
+  159  git commit -m "stashed"
+  160  git status
+  161  exit
+  162  logout
+  163  ls
+  164  cd git/
+  165  ls
+  166  git branch li
+  167  git branch list
+  168* git status
+  169  git branch -v
+  170  git branch -list
+  171  git branch --list
+  172  git status 
+  173  rmdir Git_assign3/
+  174  rmdir Git_assign3/ -f
+  175  sudo rmdir Git_assign3/ --f
+  176  sudo rmdir Git_assign3/ -f
+  177  sudo rmdir Git_assign3/ 
+  178  sudo rmdir -f Git_assign3/ 
+  179  sudo rmdir --help
+  180  ls
+  181  history
+  182  history | grep branch
+  183  sudo rm -r Git_assign3/
+  184  ls
+  185  cd ..
+  186  ls
+  187  rm -r git/
+  188  sudo rm -r git/
+  189  ls
+  190  mkdir Git
+  191  git clone origin master
+  192  git status
+  193  git init
+  194  git remote -v
+  195  git clone git@github.com:Ashish130291/assignment.git
+  196  ls
+  197  git branch --list
+  198  git branch -v
+  199  git status
+  200  ls
+  201  sudo rm -r Git/
+  202  ls
+  203  mkdir git-assign2
+  204  ls
+  205  cd git-assign2/
+  206  git init
+  207  git clone git@github.com:Ashish130291/Git-assignment2.git
+  208  ls
+  209  cd Git-assignment2/
+  210  ls
+  211  git branch --list
+  212  git status
+  213  git remote -v 
+  214  touch feature1
+  215  touch feature2
+  216  git status
+  217  git commit log --oneline
+  218  git commit log 
+  219  git commit status
+  220  git commit -log 
+  221  git commit --log 
+  222  git statsu
+  223  git status
+  224  git commit --help
+  225  git commit --help > 1.txt
+  226* 
+  227  git commit log --help
+  228  git log --oneline
+  229  git add .
+  230  git commit -m "assignment2" 
+  231  git branch devlop
+  232  git branch feature1
+  233  git branch feature2
+  234  git branch -v
+  235  git checkout devlop 
+  236  git branch -v
+  237  ls
+  238  touch devlop.txt
+  239  ls
+  240  git status
+  241  git stash --help
+  242  git stash --help > 2.txt
+  243  cat 2.txt 
+  244* 
+  245  rm 2.txt 
+  246  git stash 
+  247  git status
+  248  git stash --help
+  249  git status
+  250  git stash save "first stash" 
+  251  git status
+  252  git add .
+  253  git stash save "first stash" 
+  254  git stash list 
+  255  ls
+  256  git stash pop stash@{0}
+  257  ls
+  258  git stash list 
+  259  nano devlop.txt 
+  260  git diff
+  261  git stash 
+  262  git stash list
+  263  git status
+  264  nano devlop.txt
+  265  ls
+  266  touch ashish.txt
+  267  git status
+  268  git stash save 'delete this stash'
+  269  git add .
+  270  git stash save 'delete this stash'
+  271  git stash list
+  272  git stash pop stash@{1}
+  273  git stash list
+  274  git stash save 'first stash'
+  275  git stash list
+  276  git stash pop stash@{0}
+  277  git stash list
+  278  git stash pop stash@{0} 
+  279  rm ashish.txt 
+  280  git status
+  281  git add .
+  282  git status
+  283  git stash save 'first stash'
+  284  git branch -v
+  285  git checkout feature1
+  286  touch feature1.txt
+  287  git add.
+  288  git add .
+  289  git commit -m 'feature1 commit'
+  290  git checkout devlop 
+  291  git stash list
+  292  git status
+  293  git stash pop stash@{0} 
+  294  git commit -m 'final commit'
+  295  history
+  296  history > command.txt
+  297  cat command.txt 
+  298  cd ..
+  299  ls
+  300  cd ..
+  301  ls
+  302  cd assignment/
+  303  mkdir git-assign3
+  304  ls
+  305  cd git-assign3/
+  306  ls
+  307  ls -a
+  308  ls -la
+  309  ls -lar
+  310  ls -lart
+  311  ls
+  312  git init
+  313  git branch -v
+  314  git status
+  315  touch main.txt
+  316  git add .
+  317  git commit -m 'first commit-03'
+  318  git branch f1
+  319  git branch f2
+  320  git branch devlop
+  321  git branch -v
+  322  git checkout f1
+  323  touch f1.txt
+  324  git add .
+  325  git commit -m 'f1 commit'
+  326  git checkout f2
+  327  touch f2.txt
+  328  git add .
+  329  git commit -m 'f2 commit'
+  330  git checkout devlop 
+  331  touch devlop.txt
+  332  git commit -m 'devlop commit'
+  333  git add .
+  334  git commit -m 'devlop commit'
+  335  git status
+  336  git remote add git@github.com:Ashish130291/Git-assignment3.git
+  337  git remote add origin  git@github.com:Ashish130291/Git-assignment3.git
+  338  git remote -v
+  339  git push origin master 
+  340  git push origin master f1 f2 devlop 
+  341  git branch --delete f2
+  342  git branch -D f2
+  343  git push origin origin/f2
+  344  git branch -v
+  345  git push origin --delete f2
+  346  history
+  347  history > command.txt
